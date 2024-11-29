@@ -10,6 +10,8 @@ python -m venv env
 source env/bin/activate   # Linux/MacOS
 env\Scripts\activate      # Windows
 
+# Get into Inventory folder
+cd inventory
 # Install dependencies
 pip install -r requirements.txt
 
