@@ -12,6 +12,7 @@ env\Scripts\activate      # Windows
 
 # Get into Inventory folder
 cd inventory
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -21,5 +22,14 @@ python manage.py migrate
 # Start the development server
 python manage.py runserver
 
-# Access the application
+# Access the application backend
 # Open your browser and navigate to http://127.0.0.1:8000/
+
+# Get into Front end Folder
+cd inventory-frontend
+npm install
+
+# Access the application Frontend
+npm start
+# Open your browser and navigate to http://localhost:3000
+
